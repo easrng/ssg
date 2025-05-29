@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run --allow-env --allow-net --allow-read=src --allow-read=plugins --allow-write=dist
+#!/usr/bin/env -S deno run --allow-env --allow-net --allow-import --allow-read=src --allow-read=plugins --allow-write=dist
 
 import { extname, join, relative, toFileUrl } from "jsr:@std/path@1/posix";
 import { walk } from "jsr:@std/fs@1/walk";
